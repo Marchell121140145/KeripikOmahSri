@@ -20,13 +20,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item me-4">
-                    <a class="nav-link"  href="index.php">Home</a>
+                    <a class="nav-link"  href="index.html">Home</a>
                 </li>
                 <li class="nav-item me-4">
-                    <a class="nav-link" href="tentang-kami.php">Tentang Kami</a>
+                    <a class="nav-link" href="tentang-kami.html">Tentang Kami</a>
                 </li>
                 <li class="nav-item me-4">
-                    <a class="nav-link" href="produk.php">Produk</a>
+                    <a class="nav-link" href="produk.html">Produk</a>
                 </li>
             </ul>
         </div>
@@ -36,16 +36,17 @@
     <div class="container-fluid banner d-flex align-items-center">
         <div class="container text-center text-white">
             <h1>Aneka Keripik Omah Sri</h1>
-            <div class="col-md-8 offset-md-2">
-                <form method="get" action="produk.php">
-                    <!-- <div class="input-group input-group-lg my-5">
+     
+                <!-- <form method="get" action="produk.php">
+                    <div class="input-group input-group-lg my-5">
                         <input type="text" class="form-control" placeholder="Nama Produk" aria-label="Recipient's username" aria-describedby="basic-addon2" name="keyword">
                         <button type="submit" class="btn warna2 text-white">Telusuri</button>
-                    </div> -->
-                </form>
+                    </div>
+                </form> -->
             </div>
         </div>
     </div>
+    
 
     <!-- kategori -->
     <!-- <div class="container-fluid py-5">
@@ -73,21 +74,18 @@
     </div> -->
 
     <!-- tentang kami -->
-<!--     <div class="container-fluid warna3 py-5">
+    <div class="container-fluid warna3 py-5">
         <div class="container text-center">
-            <h3>Tentang Kami</h3>
+            <h3>Tentang</h3>
             <p class="fs5 mt-4">
-            Pekon Ambarawa adalah salah satu desa/pekon dalam Wilayah Kecamatan Ambarawa Kabupaten Pringsewu 
-            Provinsi Lampung yang pada mulanya tanah hutan Marga Way Lima yang dikuasai Pasirah Syahpuhanda (Alm). 
-            Areal hutan tersubut atas  ijin Pasirah Marga Way Lima mulai di buka Tahun 1933 oleh sebanyak 10 Kepala 
-            Rumah Tangga di bawah pimpinan Hi. Achmad Ghardi(Alm). Kemudian pada tahun 1933 itu juga, oleh 
-            Pasirah Marga Way Lima areal tanah marga yang telah dibuka itu di resmikan menjadi desa/pekon dengan 
-            nama Ambarawa dan Bapak Hi. Achmad Ghardi (Alm) ditetapkan menjadi Kepala desa/pekon pertama (Ke-1) sampai 
-            dengan tahun 1950, dan pada waktu itu penduduk Desa/Pekon Ambarawa terdapat 150 KK dengan jumlah jiwa 350 orang.
+           Aneka Keripik Tradisional Omah Sri merupakan salah satu UMKM 
+           yang terletak di Sidokerto yang didirikan oleh Omah Sri itu sendiri yang merupakan penduduk asli Sidokerto.
+           Pemikiran Omah Sri yang kreatif memungkinkan Omah Sri untuk berinovasi dalam menciptakan produk yang dapat memberikan pengalaman kuliner yang unik. 
+           Omah Sri memproduksi keripik dengan berbagai bahan baku seperti daun singkong, kelapa, pare, pepaya, pisang, kacang dll.
             </p>
         </div>
     </div>
- -->
+
     <!-- display produk -->
     <div class="container-fluid py-5">
         <div class="container text-center">
@@ -101,8 +99,8 @@
                         </div>
                         <div class="card-body">
                             <h4 class="card-title">Keripik Daun Singkong</h4>
-                            <p class="card-text text-truncate">isi sendiri</p>
-                            <p class="card-text text-harga">Rp 80</p>
+                            <p class="card-text text-truncate">Dijuluki belut darat karena kemiripan rasa </p> 
+                            <!-- yang memiliki rasa seperti belut sehingga mendapatkan julukan keripik belut darat -->
                         </div>
                     </div>
                 </div>
@@ -114,8 +112,7 @@
                         </div>
                         <div class="card-body">
                             <h4 class="card-title">Keripik Pare</h4>
-                            <p class="card-text text-truncate">isi sendiri</p>
-                            <p class="card-text text-harga">Rp 80</p>
+                            <p class="card-text text-truncate">Pare yang diolah sehingga tidak terasa pahit</p>
                         </div>
                     </div>
                 </div>
@@ -123,12 +120,11 @@
                 <div class="col-sm-6 col-md-4 mb-3">
                     <div class="card h-100">
                         <div class="image-box">
-                            <img src="image/produk/5.jpg " class="card-img-top" alt="...">
+                            <img src="image/produk/3.jpg " class="card-img-top" alt="...">
                         </div>
                         <div class="card-body">
                             <h4 class="card-title">Stik Pepaya</h4>
-                            <p class="card-text text-truncate">isi sendiri</p>
-                            <p class="card-text text-harga">Rp 80</p>
+                            <p class="card-text text-truncate">Pepaya parut cocok untuk kudapan ringan</p>
                         </div>
                     </div>
                 </div>
@@ -136,12 +132,11 @@
                 <div class="col-sm-6 col-md-4 mb-3">
                     <div class="card h-100">
                         <div class="image-box">
-                            <img src="image/<?php echo $data["foto"]; ?>" class="card-img-top" alt="...">
+                            <img src="image/produk/4.jpg" class="card-img-top" alt="...">
                         </div>
                         <div class="card-body">
                             <h4 class="card-title">Keripik Kelapa</h4>
-                            <p class="card-text text-truncate">isi sendiri</p>
-                            <p class="card-text text-harga">Rp 80</p>
+                            <p class="card-text text-truncate">Daging kelapa yang gurih</p>
                         </div>
                     </div>
                 </div>
@@ -149,12 +144,11 @@
                 <div class="col-sm-6 col-md-4 mb-3">
                     <div class="card h-100">
                         <div class="image-box">
-                            <img src="image/<?php echo $data["foto"]; ?>" class="card-img-top" alt="...">
+                            <img src="image/produk/5.jpg" class="card-img-top" alt="...">
                         </div>
                         <div class="card-body">
                             <h4 class="card-title">Keripik Pisang Coklat Lumer</h4>
-                            <p class="card-text text-truncate">isi sendiri</p>
-                            <p class="card-text text-harga">Rp 80</p>
+                            <p class="card-text text-truncate">Pisang dengan lapisan coklat leleh</p>
                         </div>
                     </div>
                 </div>
@@ -162,12 +156,11 @@
                 <div class="col-sm-6 col-md-4 mb-3">
                     <div class="card h-100">
                         <div class="image-box">
-                            <img src="image/<?php echo $data["foto"]; ?>" class="card-img-top" alt="...">
+                            <img src="image/produk/6.jpg" class="card-img-top" alt="...">
                         </div>
                         <div class="card-body">
                             <h4 class="card-title">Peyek Kacang Rapet</h4>
-                            <p class="card-text text-truncate">isi sendiri</p>
-                            <p class="card-text text-harga">Rp 80</p>
+                            <p class="card-text text-truncate">Peyek dengan kacang utuh </p>
                         </div>
                     </div>
                 </div>
@@ -175,12 +168,11 @@
                 <div class="col-sm-6 col-md-4 mb-3">
                     <div class="card h-100">
                         <div class="image-box">
-                            <img src="image/<?php echo $data["foto"]; ?>" class="card-img-top" alt="...">
+                            <img src="produk/7.jpg" class="card-img-top" alt="...">
                         </div>
                         <div class="card-body">
                             <h4 class="card-title">Keripik Kacang Jarak</h4>
-                            <p class="card-text text-truncate">isi sendiri</p>
-                            <p class="card-text text-harga">Rp 80</p>
+                            <p class="card-text text-truncate">Keripik kacang klasik</p>
                         </div>
                     </div>
                 </div>
@@ -236,8 +228,7 @@
             <i class="fas fa-gem me-3"></i>Aneka Keripik Omah Sri
           </h6>
           <p>
-            Here you can use rows and columns to organize your footer content. Lorem ipsum
-            dolor sit amet, consectetur adipisicing elit.
+            Aneka keripik tradisional yang di produksi di Sidokerto.
           </p>
         </div>
         <!-- Grid column -->
@@ -288,11 +279,8 @@
         <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
           <!-- Links -->
           <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
-          <p><i class="fas fa-home me-3"></i> Sidokerto</p>
-          <p>
-            <i class="fas fa-envelope me-3"></i>
-            info@example.com
-          </p>
+          <p><i class="fas fa-home me-3"></i> Dusun IV Sidokerto</p>
+          <p><i class="fab fa-facebook-f me-3"></i> Omah Sri</p>
           <p><i class="fas fa-phone me-3"></i> + 62 831 4845 4644</p>
 
         </div>
@@ -302,11 +290,12 @@
     </div>
   </section>
   <!-- Section: Links  -->
+  
 
   <!-- Copyright -->
   <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
     © 2024 Copyright:
-    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">ITERA</a>
+    <a class="text-reset fw-bold" href="https://www.itera.ac.id/">ITERA</a>
   </div>
   <!-- Copyright -->
 </footer>
