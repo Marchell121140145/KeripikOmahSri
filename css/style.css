@@ -1,5 +1,5 @@
 .warna1 {
-    background-color: #AB2B2B;
+    background-color: #21322c;
 }
 
 .warna2 {
@@ -20,8 +20,11 @@
 
 .banner {
     height: 80vh;
-    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../image/banner.jpg');
-}
+    background-image: url('../image/banner.png');
+    background-position: center;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;}
 
 .highlighted-kategori {
     height: 250px;
@@ -78,14 +81,14 @@
 
 .banner-produk {
     height: 40vh;
-    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../image/banner.jpg');
+    background: /* linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), */  url('../image/produk.png');
     background-position: center;
     object-fit: cover;
-}
+    background-size: 100% 100%;}
 
 .banner2{
     height: 80vh;
-    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../image/kita.jpg');
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(92, 53, 53, 0.4)), url('../image/kita.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
